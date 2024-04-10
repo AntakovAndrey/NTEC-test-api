@@ -81,7 +81,7 @@ public:
   ENDPOINT_INFO(getPhoneBooks) {
     info->summary = "get all stored phoneBooks";
 
-    info->addResponse<oatpp::Object<PhoneBooksPageDto>>(Status::CODE_200, "application/json");
+    info->addResponse<oatpp::Object<PhoneBookPageDto>>(Status::CODE_200, "application/json");
     info->addResponse<Object<StatusDto>>(Status::CODE_500, "application/json");
   }
   ENDPOINT("GET", "phoneBook/offset/{offset}/limit/{limit}", getPhoneBooks,
