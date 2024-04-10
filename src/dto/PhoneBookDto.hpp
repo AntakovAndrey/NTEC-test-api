@@ -9,7 +9,7 @@
 
 class PhoneBookDto : public oatpp::DTO {
   
-  DTO_INIT(UserDto, DTO)
+  DTO_INIT(PhoneBookDto, DTO)
 
   DTO_FIELD(String, id);
   DTO_FIELD(String, phone, "phone");
