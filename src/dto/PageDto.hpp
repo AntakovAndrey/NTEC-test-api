@@ -2,7 +2,7 @@
 #ifndef EXAMPLE_POSTGRESQL_PAGEDTO_HPP
 #define EXAMPLE_POSTGRESQL_PAGEDTO_HPP
 
-#include "UserDto.hpp"
+#include "PhoneBookDto.hpp"
 
 #include OATPP_CODEGEN_BEGIN(DTO)
 
