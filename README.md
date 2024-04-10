@@ -1,1 +1,0 @@
-# NTEC-test-api
